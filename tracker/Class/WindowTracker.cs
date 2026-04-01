@@ -29,12 +29,6 @@ class WindowTracker
             ClsTrackingPrograms trackingPrograms = new ClsTrackingPrograms(title);
             return trackingPrograms.CheckTrackedPrograms();
 
-            //// فحص إذا العنوان يحتوي على أسماء البرامج اللي بدنا نراقبها
-            //return title.ToLower().Contains("studio")
-            //    || title.ToLower().Contains("management studio")
-            //    || title.ToLower().Contains("inno setup")
-            //    || title.ToLower().Contains("word")
-            //    || title.Contains("vmware");
         }
 
         return false; 
