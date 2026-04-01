@@ -32,7 +32,7 @@ namespace tracker.Class
 
         private void PicClose_Click(object sender, EventArgs e) // أغلاق 
         {
-            this.Opacity = 0;
+            this.Visible = false;
         }
 
         private void chk_VS_CheckedChanged(object sender, EventArgs e) //checkBoxs

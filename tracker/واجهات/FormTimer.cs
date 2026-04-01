@@ -21,8 +21,7 @@ namespace tracker
             MyTools.MoveControl(this,this); // تحريك الفورم
 
             settings = new FrmSettings();
-            settings.Opacity = 0 ;
-            MyTools.ShowForm(settings);
+            settings.Visible = false;
         }
         FrmSettings settings;
 
@@ -116,7 +115,7 @@ namespace tracker
         private void CMS_Settings_Click(object sender, EventArgs e) //عرض الإعدادات
         {
             MyTools.ShowForm(settings);
-            settings.Opacity = 1;
+            settings.Visible = true;
         }
     }
 }
