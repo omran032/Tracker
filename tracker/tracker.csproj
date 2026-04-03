@@ -64,6 +64,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class\ClsTrackingPrograms.cs" />
+    <Compile Include="واجهات\FrmPublisher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="واجهات\FrmPublisher.Designer.cs">
+      <DependentUpon>FrmPublisher.cs</DependentUpon>
+    </Compile>
     <Compile Include="واجهات\FrmSettings.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -85,6 +91,9 @@
     <Compile Include="Program.cs" />
     <Compile Include="AssemblyInfo.cs" />
     <Compile Include="Class\WindowTracker.cs" />
+    <EmbeddedResource Include="واجهات\FrmPublisher.resx">
+      <DependentUpon>FrmPublisher.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="واجهات\FrmSettings.resx">
       <DependentUpon>FrmSettings.cs</DependentUpon>
     </EmbeddedResource>

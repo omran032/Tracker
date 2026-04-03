@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Dev_Note_Assistant;
 using Guna.UI2.WinForms;
+using tracker.واجهات;
 namespace tracker.Class
 {
     public partial class FrmSettings : Form
@@ -56,6 +57,12 @@ namespace tracker.Class
 
             MessageBox.Show($" لتتبعه {NameProgram} تم إضافة برنامج ", "تم", MessageBoxButtons.OK, MessageBoxIcon.Information);
             ClsTrackingPrograms.NewTrackedPrograms_ = NameProgram;
+        }
+
+        private void btnPublisher_Click(object sender, EventArgs e) // زر إظهار معلومات الناشر
+        {
+            FrmPublisher frmPublisher = new FrmPublisher();
+            MyTools.ShowForm(frmPublisher);
         }
     }
 }

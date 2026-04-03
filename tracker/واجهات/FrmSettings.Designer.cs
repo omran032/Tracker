@@ -31,12 +31,7 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmSettings));
             this.PnlTopBar = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2PictureBox5 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.PicClose = new Guna.UI2.WinForms.Guna2PictureBox();
             this.ElipseForm = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.label2 = new System.Windows.Forms.Label();
             this.chk_VS = new Guna.UI2.WinForms.Guna2CheckBox();
@@ -49,7 +44,6 @@
             this.Chk_VMwere = new Guna.UI2.WinForms.Guna2CheckBox();
             this.Chk_Copilot = new Guna.UI2.WinForms.Guna2CheckBox();
             this.TxtAppTrager = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.Chk_Browsers = new Guna.UI2.WinForms.Guna2CheckBox();
             this.Chk_WebStrom = new Guna.UI2.WinForms.Guna2CheckBox();
             this.Chk_InnoSetup = new Guna.UI2.WinForms.Guna2CheckBox();
@@ -57,19 +51,28 @@
             this.Chk_IntelliJ_IDEA = new Guna.UI2.WinForms.Guna2CheckBox();
             this.chk_Photoshop = new Guna.UI2.WinForms.Guna2CheckBox();
             this.btnAddAppTrager = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2PictureBox5 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.PicClose = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.btnPublisher = new Guna.UI2.WinForms.Guna2PictureBox();
             this.PnlTopBar.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnAddAppTrager)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
             this.guna2Panel2.SuspendLayout();
             this.guna2Panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PicClose)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnAddAppTrager)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnPublisher)).BeginInit();
             this.SuspendLayout();
             // 
             // PnlTopBar
             // 
             this.PnlTopBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
+            this.PnlTopBar.Controls.Add(this.btnPublisher);
             this.PnlTopBar.Controls.Add(this.guna2PictureBox3);
             this.PnlTopBar.Controls.Add(this.guna2Panel2);
             this.PnlTopBar.Controls.Add(this.label1);
@@ -81,52 +84,6 @@
             this.PnlTopBar.TabIndex = 0;
             this.PnlTopBar.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel1_Paint);
             // 
-            // guna2PictureBox3
-            // 
-            this.guna2PictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox3.FillColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox3.Image")));
-            this.guna2PictureBox3.ImageRotate = 0F;
-            this.guna2PictureBox3.Location = new System.Drawing.Point(52, 21);
-            this.guna2PictureBox3.Name = "guna2PictureBox3";
-            this.guna2PictureBox3.Size = new System.Drawing.Size(22, 21);
-            this.guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2PictureBox3.TabIndex = 3;
-            this.guna2PictureBox3.TabStop = false;
-            // 
-            // guna2Panel2
-            // 
-            this.guna2Panel2.BackgroundImage = global::tracker.Properties.Resources.Preview_Pane;
-            this.guna2Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.guna2Panel2.Controls.Add(this.guna2Panel3);
-            this.guna2Panel2.Location = new System.Drawing.Point(2, 4);
-            this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(60, 41);
-            this.guna2Panel2.TabIndex = 1;
-            // 
-            // guna2Panel3
-            // 
-            this.guna2Panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
-            this.guna2Panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.guna2Panel3.Controls.Add(this.guna2PictureBox5);
-            this.guna2Panel3.Location = new System.Drawing.Point(11, 8);
-            this.guna2Panel3.Name = "guna2Panel3";
-            this.guna2Panel3.Size = new System.Drawing.Size(37, 26);
-            this.guna2Panel3.TabIndex = 2;
-            // 
-            // guna2PictureBox5
-            // 
-            this.guna2PictureBox5.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox5.FillColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox5.Image = global::tracker.Properties.Resources.wired_lineal_69_eye_hover_blink__1_;
-            this.guna2PictureBox5.ImageRotate = 0F;
-            this.guna2PictureBox5.Location = new System.Drawing.Point(6, 0);
-            this.guna2PictureBox5.Name = "guna2PictureBox5";
-            this.guna2PictureBox5.Size = new System.Drawing.Size(25, 25);
-            this.guna2PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2PictureBox5.TabIndex = 21;
-            this.guna2PictureBox5.TabStop = false;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -137,20 +94,6 @@
             this.label1.Size = new System.Drawing.Size(147, 31);
             this.label1.TabIndex = 1;
             this.label1.Text = "إعدادات المتتبع";
-            // 
-            // PicClose
-            // 
-            this.PicClose.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.PicClose.FillColor = System.Drawing.Color.Transparent;
-            this.PicClose.Image = ((System.Drawing.Image)(resources.GetObject("PicClose.Image")));
-            this.PicClose.ImageRotate = 0F;
-            this.PicClose.Location = new System.Drawing.Point(613, 8);
-            this.PicClose.Name = "PicClose";
-            this.PicClose.Size = new System.Drawing.Size(40, 34);
-            this.PicClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.PicClose.TabIndex = 1;
-            this.PicClose.TabStop = false;
-            this.PicClose.Click += new System.EventHandler(this.PicClose_Click);
             // 
             // ElipseForm
             // 
@@ -377,18 +320,6 @@
             this.TxtAppTrager.Size = new System.Drawing.Size(277, 41);
             this.TxtAppTrager.TabIndex = 18;
             // 
-            // guna2PictureBox1
-            // 
-            this.guna2PictureBox1.FillColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.Image")));
-            this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(473, 72);
-            this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(40, 34);
-            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2PictureBox1.TabIndex = 4;
-            this.guna2PictureBox1.TabStop = false;
-            // 
             // Chk_Browsers
             // 
             this.Chk_Browsers.AutoSize = true;
@@ -523,6 +454,92 @@
             this.btnAddAppTrager.TabStop = false;
             this.btnAddAppTrager.Click += new System.EventHandler(this.btnAddAppTrager_Click);
             // 
+            // guna2PictureBox1
+            // 
+            this.guna2PictureBox1.FillColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.Image")));
+            this.guna2PictureBox1.ImageRotate = 0F;
+            this.guna2PictureBox1.Location = new System.Drawing.Point(473, 72);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.Size = new System.Drawing.Size(40, 34);
+            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2PictureBox1.TabIndex = 4;
+            this.guna2PictureBox1.TabStop = false;
+            // 
+            // guna2PictureBox3
+            // 
+            this.guna2PictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox3.FillColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox3.Image")));
+            this.guna2PictureBox3.ImageRotate = 0F;
+            this.guna2PictureBox3.Location = new System.Drawing.Point(52, 21);
+            this.guna2PictureBox3.Name = "guna2PictureBox3";
+            this.guna2PictureBox3.Size = new System.Drawing.Size(22, 21);
+            this.guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2PictureBox3.TabIndex = 3;
+            this.guna2PictureBox3.TabStop = false;
+            // 
+            // guna2Panel2
+            // 
+            this.guna2Panel2.BackgroundImage = global::tracker.Properties.Resources.Preview_Pane;
+            this.guna2Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.guna2Panel2.Controls.Add(this.guna2Panel3);
+            this.guna2Panel2.Location = new System.Drawing.Point(2, 4);
+            this.guna2Panel2.Name = "guna2Panel2";
+            this.guna2Panel2.Size = new System.Drawing.Size(60, 41);
+            this.guna2Panel2.TabIndex = 1;
+            // 
+            // guna2Panel3
+            // 
+            this.guna2Panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
+            this.guna2Panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.guna2Panel3.Controls.Add(this.guna2PictureBox5);
+            this.guna2Panel3.Location = new System.Drawing.Point(11, 8);
+            this.guna2Panel3.Name = "guna2Panel3";
+            this.guna2Panel3.Size = new System.Drawing.Size(37, 26);
+            this.guna2Panel3.TabIndex = 2;
+            // 
+            // guna2PictureBox5
+            // 
+            this.guna2PictureBox5.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox5.FillColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox5.Image = global::tracker.Properties.Resources.wired_lineal_69_eye_hover_blink__1_;
+            this.guna2PictureBox5.ImageRotate = 0F;
+            this.guna2PictureBox5.Location = new System.Drawing.Point(6, 0);
+            this.guna2PictureBox5.Name = "guna2PictureBox5";
+            this.guna2PictureBox5.Size = new System.Drawing.Size(25, 25);
+            this.guna2PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2PictureBox5.TabIndex = 21;
+            this.guna2PictureBox5.TabStop = false;
+            // 
+            // PicClose
+            // 
+            this.PicClose.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.PicClose.FillColor = System.Drawing.Color.Transparent;
+            this.PicClose.Image = ((System.Drawing.Image)(resources.GetObject("PicClose.Image")));
+            this.PicClose.ImageRotate = 0F;
+            this.PicClose.Location = new System.Drawing.Point(613, 8);
+            this.PicClose.Name = "PicClose";
+            this.PicClose.Size = new System.Drawing.Size(40, 34);
+            this.PicClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PicClose.TabIndex = 1;
+            this.PicClose.TabStop = false;
+            this.PicClose.Click += new System.EventHandler(this.PicClose_Click);
+            // 
+            // btnPublisher
+            // 
+            this.btnPublisher.Cursor = System.Windows.Forms.Cursors.Help;
+            this.btnPublisher.FillColor = System.Drawing.Color.Transparent;
+            this.btnPublisher.Image = ((System.Drawing.Image)(resources.GetObject("btnPublisher.Image")));
+            this.btnPublisher.ImageRotate = 0F;
+            this.btnPublisher.Location = new System.Drawing.Point(559, 6);
+            this.btnPublisher.Name = "btnPublisher";
+            this.btnPublisher.Size = new System.Drawing.Size(48, 40);
+            this.btnPublisher.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnPublisher.TabIndex = 4;
+            this.btnPublisher.TabStop = false;
+            this.btnPublisher.Click += new System.EventHandler(this.btnPublisher_Click);
+            // 
             // FrmSettings
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
@@ -557,13 +574,14 @@
             this.Text = "Settings";
             this.PnlTopBar.ResumeLayout(false);
             this.PnlTopBar.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnAddAppTrager)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
             this.guna2Panel2.ResumeLayout(false);
             this.guna2Panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PicClose)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnAddAppTrager)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnPublisher)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -598,5 +616,6 @@
         public Guna.UI2.WinForms.Guna2CheckBox Chk_Figma;
         public Guna.UI2.WinForms.Guna2CheckBox Chk_IntelliJ_IDEA;
         public Guna.UI2.WinForms.Guna2CheckBox chk_Photoshop;
+        private Guna.UI2.WinForms.Guna2PictureBox btnPublisher;
     }
 }
